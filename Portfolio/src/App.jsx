@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Skills from "./components/Skills";
+import Skills from "./components/skills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
@@ -13,7 +13,7 @@ function App() {
     <div className="font-inter">
       <Navbar />  {/* 👈 Ye line add karo */}
       
-      {/* Sab sections mein id add karo taaki scroll work kare */}
+     
       <section id="home"><Hero /></section>
       <section id="about"><About /></section>
       <section id="skills"><Skills /></section>
